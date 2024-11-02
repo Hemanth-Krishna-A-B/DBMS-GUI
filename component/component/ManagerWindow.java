@@ -48,7 +48,7 @@ public class ManagerWindow {
         gbc.gridy = 5; leftPanel.add(bankDetails, gbc);
 
         rightPanel = new JPanel(new CardLayout());
-        //rightPanel.add(createAddOrUpdateEmployeePanel(), "Add/Update Employee");
+
         rightPanel.add(createViewAllEmployeesPanel(), "View All Employees");
         rightPanel.add(createInventoryStatusPanel(), "Inventory Status");
         rightPanel.add(createParcelStatusPanel(), "Parcel Status");
@@ -176,11 +176,11 @@ public class ManagerWindow {
     }
 
     private void updateBankDetails(String accountNumber, String bankName, String branch) {
-        // Implementation for updating bank details in the database
+        
     }
 
     private void loadBankDetails(JTextField accountField, JTextField bankField, JTextField branchField) {
-        // Implementation for loading bank details from the database
+       
     }
 
     public static void main(String[] args) {

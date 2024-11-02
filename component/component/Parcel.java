@@ -25,10 +25,10 @@ public class Parcel {
 
     public Parcel(int int1, int int2, double double1, String string, int int3, String string2, String string3,
             String string4, String string5, int int4) {
-        //TODO Auto-generated constructor stub
+        
     }
 
-    // Getters and Setters
+   
     public String getMid() { return mid; }
     public void setMid(String mid) { this.mid = mid; }
 

@@ -56,7 +56,7 @@ public class RootWindow {
 
     private void buttonConfig() {
         adminLogin = new JButton("Admin Login");
-        bankLogin = new JButton("Bank Login");
+        bankLogin = new JButton("Office Login");
         supplierLogin = new JButton("Supplier Login");
 
         adminLogin.addActionListener(new ActionListener() {

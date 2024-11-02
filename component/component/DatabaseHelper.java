@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseHelper {
-     final String URL = "jdbc:mysql://localhost:3306/Hemanth";
-     final String USER = "root";
-     final String PASSWORD = "Achu@2003";
+     final String URL = "jdbc:mysql://localhost:******";
+     final String USER = "*****";
+     final String PASSWORD = "******";
 
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
